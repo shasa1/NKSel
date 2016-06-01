@@ -1,0 +1,40 @@
+name: Page Object test example
+parameters: { url: http://www.naukri.com/, browserType: FF }
+tests:
+  - name: smoke test
+    classes:
+      - name: com.nk.tests.RegisterPageTest
+        includedMethods:
+          - popUpClose
+          - verifyRegistrationPage
+          - verifyCreateLoginDetails
+          - verifyYourContactInformation
+          - verifyYourCurrentEmploymentDetails
+          - verifyCompleteMyProfilePage
+          - verifyEducationDetails
+          - verifyCompleteMyProfile
+          - verifyCreateYourJobAlert
+      - name: com.nk.tests.SearchPageTest
+        includedMethods:
+          - popUpClose
+          - verifySearchSection
+          - verifySearchByLocationField
+          - verifySearchByExperienceField
+          - verifySearchBySkill
+          - verifySearchResultsPage
+          - verifyRefineResultsSection
+          - verifySearchListingViewResults
+          - verifySearchDetailedViewResults
+          - verifySearchResultsSection
+          - verifyRefineByFreshness
+          - verifySearchByLocationSection
+          - verifyRefineByLocationPopUp
+          - verifyRefineByIndustryType
+          - verifyRefineByIndustryPopUp
+          - verifyRefineByEducation
+          - verifyRefineByEducationPopUp
+      - name: com.nk.tests.HomePageTest
+        includedMethods:
+          - popUpClose
+          - clickOnSiteLogoAndCheckThePageTitle
+

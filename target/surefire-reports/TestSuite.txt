@@ -1,0 +1,212 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 28, Failures: 12, Errors: 0, Skipped: 0, Time elapsed: 582.068 sec <<< FAILURE!
+verifyRegistrationPage(com.nk.tests.RegisterPageTest)  Time elapsed: 10.2 sec  <<< FAILURE!
+java.lang.AssertionError: Failed to load Registration page expected [Register on Naukri.com and Apply to Millions of Jobs Online. Free Registration. Submit Your Resume Now.] but found [Register on Naukri.com: Apply to Millions of Jobs Online]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at com.nk.util.BasePageObject.compareTwoStrings(BasePageObject.java:341)
+	at com.nk.pages.RegistrationPage.verifyRegistrationPageTitle(RegistrationPage.java:654)
+	at com.nk.tests.RegisterPageTest.verifyRegistrationPage(RegisterPageTest.java:43)
+
+verifyCreateLoginDetails(com.nk.tests.RegisterPageTest)  Time elapsed: 10.986 sec  <<< FAILURE!
+java.lang.AssertionError: Email Field is not displayed expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.nk.pages.RegistrationPage.verifyEmailField(RegistrationPage.java:187)
+	at com.nk.tests.RegisterPageTest.verifyCreateLoginDetails(RegisterPageTest.java:61)
+
+verifyYourContactInformation(com.nk.tests.RegisterPageTest)  Time elapsed: 10.733 sec  <<< FAILURE!
+java.lang.AssertionError: Full Name Field is not displayed expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.nk.pages.RegistrationPage.verifyFullNameField(RegistrationPage.java:309)
+	at com.nk.pages.RegistrationPage.enterFullName(RegistrationPage.java:957)
+	at com.nk.tests.RegisterPageTest.verifyYourContactInformation(RegisterPageTest.java:95)
+
+verifyYourCurrentEmploymentDetails(com.nk.tests.RegisterPageTest)  Time elapsed: 10.779 sec  <<< FAILURE!
+java.lang.AssertionError: Experience Error is not displayed expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.nk.pages.RegistrationPage.verifyExperienceError(RegistrationPage.java:483)
+	at com.nk.pages.RegistrationPage.verifyExperienceErrorDisplayed(RegistrationPage.java:492)
+	at com.nk.tests.RegisterPageTest.verifyYourCurrentEmploymentDetails(RegisterPageTest.java:117)
+
+verifyCompleteMyProfilePage(com.nk.tests.RegisterPageTest)  Time elapsed: 0.226 sec  <<< FAILURE!
+java.lang.AssertionError: Failed to load Complete MyProfile page expected [Resume Manager - Post Resume Online - Submit your CV - Naukri.com] but found [Register on Naukri.com: Apply to Millions of Jobs Online]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at com.nk.pages.SaveMyProfilePage.verifySaveMyProfilePageTitle(SaveMyProfilePage.java:71)
+	at com.nk.tests.RegisterPageTest.verifyCompleteMyProfilePage(RegisterPageTest.java:158)
+
+verifyEducationDetails(com.nk.tests.RegisterPageTest)  Time elapsed: 10.744 sec  <<< FAILURE!
+java.lang.AssertionError: Specialization Error is not displayed expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.nk.pages.SaveMyProfilePage.verifySpecializationError(SaveMyProfilePage.java:447)
+	at com.nk.pages.SaveMyProfilePage.verifySpecializationErrorDisplayed(SaveMyProfilePage.java:456)
+	at com.nk.tests.RegisterPageTest.verifyEducationDetails(RegisterPageTest.java:176)
+
+verifyCompleteMyProfile(com.nk.tests.RegisterPageTest)  Time elapsed: 10.737 sec  <<< FAILURE!
+java.lang.AssertionError: Basic Profile Saved Message is not displayed expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.nk.pages.CompleteMyProfilePage.verifyBasicProfileSavedMessage(CompleteMyProfilePage.java:53)
+	at com.nk.tests.RegisterPageTest.verifyCompleteMyProfile(RegisterPageTest.java:205)
+
+verifyCreateYourJobAlert(com.nk.tests.RegisterPageTest)  Time elapsed: 0.262 sec  <<< FAILURE!
+java.lang.AssertionError: Failed to navigate to Create Your JobAlerts Page expected [Create Free Job Alert - Get Job Alerts on Email - Naukri.com] but found [Register on Naukri.com: Apply to Millions of Jobs Online]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at com.nk.pages.CreateYourJobAlertsPage.verifyCreateYourJobAlertsPageTitle(CreateYourJobAlertsPage.java:170)
+	at com.nk.tests.RegisterPageTest.verifyCreateYourJobAlert(RegisterPageTest.java:223)
+
+verifyRefineByIndustryType(com.nk.tests.SearchPageTest)  Time elapsed: 31.354 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='jDisc mt20']/p[2]//a[1]"}
+  (Session info: chrome=48.0.2564.97)
+  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.02 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.51.0', revision: '1af067d', time: '2016-02-05 19:15:17'
+System info: host: '185-129-70-157', ip: '185.129.70.157', os.name: 'windows', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Windows\proxy\scoped_dir2316_25628}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=48.0.2564.97, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 6f9788880b2540f7accbe4734b0eb095
+*** Element info: {Using=xpath, value=//div[@class='jDisc mt20']/p[2]//a[1]}
+Command duration or timeout: 11.44 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'salmans', ip: '172.27.139.176', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Windows\proxy\scoped_dir2316_25628}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=48.0.2564.97, platform=WINDOWS, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, webdriver.remote.sessionid=85b8e11672faa9a9941473fcde8b8a5a278ceef7, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 85b8e11672faa9a9941473fcde8b8a5a278ceef7
+*** Element info: {Using=xpath, value=//div[@class='jDisc mt20']/p[2]//a[1]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:490)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:345)
+	at com.nk.util.BasePageObject.getText(BasePageObject.java:78)
+	at com.nk.pages.JobListingsPage.verifyIndustryType(JobListingsPage.java:90)
+	at com.nk.tests.SearchPageTest.verifyRefineByIndustryType(SearchPageTest.java:101)
+Caused by: org.openqa.selenium.remote.ScreenshotException: Screen shot has been taken
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'salmans', ip: '172.27.139.176', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_65'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:138)
+	... 38 more
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='jDisc mt20']/p[2]//a[1]"}
+  (Session info: chrome=48.0.2564.97)
+  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.02 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.51.0', revision: '1af067d', time: '2016-02-05 19:15:17'
+System info: host: '185-129-70-157', ip: '185.129.70.157', os.name: 'windows', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Windows\proxy\scoped_dir2316_25628}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=48.0.2564.97, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 6f9788880b2540f7accbe4734b0eb095
+*** Element info: {Using=xpath, value=//div[@class='jDisc mt20']/p[2]//a[1]}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'salmans', ip: '172.27.139.176', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_65'
+Driver info: driver.version: EventFiringWebDriver
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at sun.reflect.GeneratedMethodAccessor17.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:103)
+	at com.sun.proxy.$Proxy1.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:188)
+	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:48)
+	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+verifyRefineByIndustryPopUp(com.nk.tests.SearchPageTest)  Time elapsed: 10.887 sec  <<< FAILURE!
+java.lang.AssertionError: Industry Section is not displayed expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.nk.pages.SearchResultPage.verifyIndustrySection(SearchResultPage.java:370)
+	at com.nk.pages.SearchResultPage.clickOnIndustry(SearchResultPage.java:1470)
+	at com.nk.tests.SearchPageTest.verifyRefineByIndustryPopUp(SearchPageTest.java:112)
+
+verifyRefineByEducation(com.nk.tests.SearchPageTest)  Time elapsed: 23.588 sec  <<< FAILURE!
+java.lang.Exception: FAILED WHILE CLICKING ON EDUCATION:::
+ clickOnEducation()no such element: Unable to locate element: {"method":"xpath","selector":"//h3[contains(.,'Education')]"}
+  (Session info: chrome=48.0.2564.97)
+  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.01 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.51.0', revision: '1af067d', time: '2016-02-05 19:15:17'
+System info: host: '185-129-70-157', ip: '185.129.70.157', os.name: 'windows', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Windows\proxy\scoped_dir2316_25628}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=48.0.2564.97, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 6f9788880b2540f7accbe4734b0eb095
+*** Element info: {Using=xpath, value=//h3[contains(.,'Education')]}
+Command duration or timeout: 10.80 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'salmans', ip: '172.27.139.176', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Windows\proxy\scoped_dir2316_25628}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=48.0.2564.97, platform=WINDOWS, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, webdriver.remote.sessionid=85b8e11672faa9a9941473fcde8b8a5a278ceef7, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 85b8e11672faa9a9941473fcde8b8a5a278ceef7
+*** Element info: {Using=xpath, value=//h3[contains(.,'Education')]}
+	at com.nk.pages.SearchResultPage.clickOnEducation(SearchResultPage.java:1568)
+	at com.nk.tests.SearchPageTest.verifyRefineByEducation(SearchPageTest.java:74)
+
+verifyRefineByEducationPopUp(com.nk.tests.SearchPageTest)  Time elapsed: 24.632 sec  <<< FAILURE!
+java.lang.Exception: FAILED WHILE CLICKING ON EDUCATION:::
+ clickOnEducation()no such element: Unable to locate element: {"method":"xpath","selector":"//h3[contains(.,'Education')]"}
+  (Session info: chrome=48.0.2564.97)
+  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.02 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.51.0', revision: '1af067d', time: '2016-02-05 19:15:17'
+System info: host: '185-129-70-157', ip: '185.129.70.157', os.name: 'windows', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Windows\proxy\scoped_dir2316_25628}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=48.0.2564.97, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 6f9788880b2540f7accbe4734b0eb095
+*** Element info: {Using=xpath, value=//h3[contains(.,'Education')]}
+Command duration or timeout: 10.84 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'salmans', ip: '172.27.139.176', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Windows\proxy\scoped_dir2316_25628}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=48.0.2564.97, platform=WINDOWS, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, webdriver.remote.sessionid=85b8e11672faa9a9941473fcde8b8a5a278ceef7, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 85b8e11672faa9a9941473fcde8b8a5a278ceef7
+*** Element info: {Using=xpath, value=//h3[contains(.,'Education')]}
+	at com.nk.pages.SearchResultPage.clickOnEducation(SearchResultPage.java:1568)
+	at com.nk.tests.SearchPageTest.verifyRefineByEducationPopUp(SearchPageTest.java:143)
+

@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="smoke test"
+           tests="9"
+           failures="8"
+           errors="0"
+           skipped="0"
+           time="66.528">
+  <properties />
+            <testcase name="verifyEducationDetails" time="10.745" classname="com.nk.tests.RegisterPageTest">
+                <failure type="java.lang.AssertionError"
+                  message="Specialization Error is not displayed expected [true] but found [false]"
+              >
+<![CDATA[java.lang.AssertionError: Specialization Error is not displayed expected [true] but found [false]
+  org.testng.Assert.fail(Assert.java:94)
+  org.testng.Assert.failNotEquals(Assert.java:496)
+  org.testng.Assert.assertTrue(Assert.java:42)
+  com.nk.pages.SaveMyProfilePage.verifySpecializationError(SaveMyProfilePage.java:447)
+  com.nk.pages.SaveMyProfilePage.verifySpecializationErrorDisplayed(SaveMyProfilePage.java:456)
+  com.nk.tests.RegisterPageTest.verifyEducationDetails(RegisterPageTest.java:176)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:497)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+  org.testng.TestRunner.privateRun(TestRunner.java:771)
+  org.testng.TestRunner.run(TestRunner.java:621)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+  org.testng.SuiteRunner.run(SuiteRunner.java:259)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+  org.testng.TestNG.run(TestNG.java:1032)
+  org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:74)
+  org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+  org.apache.maven.surefire.Surefire.run(Surefire.java:180)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:497)
+  org.apache.maven.surefire.booter.SurefireBooter.runSuitesInProcess(SurefireBooter.java:350)
+  org.apache.maven.surefire.booter.SurefireBooter.main(SurefireBooter.java:1021)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="verifyCreateYourJobAlert" time="0.261" classname="com.nk.tests.RegisterPageTest">
+                <failure type="java.lang.AssertionError"
+                  message="Failed to navigate to Create Your JobAlerts Page expected [Create Free Job Alert - Get Job Alerts on Email - Naukri.com] but found [Register on Naukri.com: Apply to Millions of Jobs Online]"
+              >
+<![CDATA[java.lang.AssertionError: Failed to navigate to Create Your JobAlerts Page expected [Create Free Job Alert - Get Job Alerts on Email - Naukri.com] but found [Register on Naukri.com: Apply to Millions of Jobs Online]
+  org.testng.Assert.fail(Assert.java:94)
+  org.testng.Assert.failNotEquals(Assert.java:496)
+  org.testng.Assert.assertEquals(Assert.java:125)
+  org.testng.Assert.assertEquals(Assert.java:178)
+  com.nk.pages.CreateYourJobAlertsPage.verifyCreateYourJobAlertsPageTitle(CreateYourJobAlertsPage.java:170)
+  com.nk.tests.RegisterPageTest.verifyCreateYourJobAlert(RegisterPageTest.java:223)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:497)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+  org.testng.TestRunner.privateRun(TestRunner.java:771)
+  org.testng.TestRunner.run(TestRunner.java:621)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+  org.testng.SuiteRunner.run(SuiteRunner.java:259)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+  org.testng.TestNG.run(TestNG.java:1032)
+  org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:74)
+  org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+  org.apache.maven.surefire.Surefire.run(Surefire.java:180)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:497)
+  org.apache.maven.surefire.booter.SurefireBooter.runSuitesInProcess(SurefireBooter.java:350)
+  org.apache.maven.surefire.booter.SurefireBooter.main(SurefireBooter.java:1021)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="verifyYourCurrentEmploymentDetails" time="10.779" classname="com.nk.tests.RegisterPageTest">
+                <failure type="java.lang.AssertionError"
+                  message="Experience Error is not displayed expected [true] but found [false]"
+              >
+<![CDATA[java.lang.AssertionError: Experience Error is not displayed expected [true] but found [false]
+  org.testng.Assert.fail(Assert.java:94)
+  org.testng.Assert.failNotEquals(Assert.java:496)
+  org.testng.Assert.assertTrue(Assert.java:42)
+  com.nk.pages.RegistrationPage.verifyExperienceError(RegistrationPage.java:483)
+  com.nk.pages.RegistrationPage.verifyExperienceErrorDisplayed(RegistrationPage.java:492)
+  com.nk.tests.RegisterPageTest.verifyYourCurrentEmploymentDetails(RegisterPageTest.java:117)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:497)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+  org.testng.TestRunner.privateRun(TestRunner.java:771)
+  org.testng.TestRunner.run(TestRunner.java:621)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+  org.testng.SuiteRunner.run(SuiteRunner.java:259)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+  org.testng.TestNG.run(TestNG.java:1032)
+  org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:74)
+  org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+  org.apache.maven.surefire.Surefire.run(Surefire.java:180)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:497)
+  org.apache.maven.surefire.booter.SurefireBooter.runSuitesInProcess(SurefireBooter.java:350)
+  org.apache.maven.surefire.booter.SurefireBooter.main(SurefireBooter.java:1021)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="verifyCompleteMyProfile" time="10.737" classname="com.nk.tests.RegisterPageTest">
+                <failure type="java.lang.AssertionError"
+                  message="Basic Profile Saved Message is not displayed expected [true] but found [false]"
+              >
+<![CDATA[java.lang.AssertionError: Basic Profile Saved Message is not displayed expected [true] but found [false]
+  org.testng.Assert.fail(Assert.java:94)
+  org.testng.Assert.failNotEquals(Assert.java:496)
+  org.testng.Assert.assertTrue(Assert.java:42)
+  com.nk.pages.CompleteMyProfilePage.verifyBasicProfileSavedMessage(CompleteMyProfilePage.java:53)
+  com.nk.tests.RegisterPageTest.verifyCompleteMyProfile(RegisterPageTest.java:205)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:497)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+  org.testng.TestRunner.privateRun(TestRunner.java:771)
+  org.testng.TestRunner.run(TestRunner.java:621)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+  org.testng.SuiteRunner.run(SuiteRunner.java:259)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+  org.testng.TestNG.run(TestNG.java:1032)
+  org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:74)
+  org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+  org.apache.maven.surefire.Surefire.run(Surefire.java:180)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:497)
+  org.apache.maven.surefire.booter.SurefireBooter.runSuitesInProcess(SurefireBooter.java:350)
+  org.apache.maven.surefire.booter.SurefireBooter.main(SurefireBooter.java:1021)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="verifyYourContactInformation" time="10.732" classname="com.nk.tests.RegisterPageTest">
+                <failure type="java.lang.AssertionError"
+                  message="Full Name Field is not displayed expected [true] but found [false]"
+              >
+<![CDATA[java.lang.AssertionError: Full Name Field is not displayed expected [true] but found [false]
+  org.testng.Assert.fail(Assert.java:94)
+  org.testng.Assert.failNotEquals(Assert.java:496)
+  org.testng.Assert.assertTrue(Assert.java:42)
+  com.nk.pages.RegistrationPage.verifyFullNameField(RegistrationPage.java:309)
+  com.nk.pages.RegistrationPage.enterFullName(RegistrationPage.java:957)
+  com.nk.tests.RegisterPageTest.verifyYourContactInformation(RegisterPageTest.java:95)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:497)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+  org.testng.TestRunner.privateRun(TestRunner.java:771)
+  org.testng.TestRunner.run(TestRunner.java:621)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+  org.testng.SuiteRunner.run(SuiteRunner.java:259)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+  org.testng.TestNG.run(TestNG.java:1032)
+  org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:74)
+  org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+  org.apache.maven.surefire.Surefire.run(Surefire.java:180)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:497)
+  org.apache.maven.surefire.booter.SurefireBooter.runSuitesInProcess(SurefireBooter.java:350)
+  org.apache.maven.surefire.booter.SurefireBooter.main(SurefireBooter.java:1021)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="verifyRegistrationPage" time="10.179" classname="com.nk.tests.RegisterPageTest">
+                <failure type="java.lang.AssertionError"
+                  message="Failed to load Registration page expected [Register on Naukri.com and Apply to Millions of Jobs Online. Free Registration. Submit Your Resume Now.] but found [Register on Naukri.com: Apply to Millions of Jobs Online]"
+              >
+<![CDATA[java.lang.AssertionError: Failed to load Registration page expected [Register on Naukri.com and Apply to Millions of Jobs Online. Free Registration. Submit Your Resume Now.] but found [Register on Naukri.com: Apply to Millions of Jobs Online]
+  org.testng.Assert.fail(Assert.java:94)
+  org.testng.Assert.failNotEquals(Assert.java:496)
+  org.testng.Assert.assertEquals(Assert.java:125)
+  org.testng.Assert.assertEquals(Assert.java:178)
+  com.nk.util.BasePageObject.compareTwoStrings(BasePageObject.java:341)
+  com.nk.pages.RegistrationPage.verifyRegistrationPageTitle(RegistrationPage.java:654)
+  com.nk.tests.RegisterPageTest.verifyRegistrationPage(RegisterPageTest.java:43)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:497)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+  org.testng.TestRunner.privateRun(TestRunner.java:771)
+  org.testng.TestRunner.run(TestRunner.java:621)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+  org.testng.SuiteRunner.run(SuiteRunner.java:259)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+  org.testng.TestNG.run(TestNG.java:1032)
+  org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:74)
+  org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+  org.apache.maven.surefire.Surefire.run(Surefire.java:180)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:497)
+  org.apache.maven.surefire.booter.SurefireBooter.runSuitesInProcess(SurefireBooter.java:350)
+  org.apache.maven.surefire.booter.SurefireBooter.main(SurefireBooter.java:1021)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="verifyCompleteMyProfilePage" time="0.225" classname="com.nk.tests.RegisterPageTest">
+                <failure type="java.lang.AssertionError"
+                  message="Failed to load Complete MyProfile page expected [Resume Manager - Post Resume Online - Submit your CV - Naukri.com] but found [Register on Naukri.com: Apply to Millions of Jobs Online]"
+              >
+<![CDATA[java.lang.AssertionError: Failed to load Complete MyProfile page expected [Resume Manager - Post Resume Online - Submit your CV - Naukri.com] but found [Register on Naukri.com: Apply to Millions of Jobs Online]
+  org.testng.Assert.fail(Assert.java:94)
+  org.testng.Assert.failNotEquals(Assert.java:496)
+  org.testng.Assert.assertEquals(Assert.java:125)
+  org.testng.Assert.assertEquals(Assert.java:178)
+  com.nk.pages.SaveMyProfilePage.verifySaveMyProfilePageTitle(SaveMyProfilePage.java:71)
+  com.nk.tests.RegisterPageTest.verifyCompleteMyProfilePage(RegisterPageTest.java:158)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:497)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+  org.testng.TestRunner.privateRun(TestRunner.java:771)
+  org.testng.TestRunner.run(TestRunner.java:621)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+  org.testng.SuiteRunner.run(SuiteRunner.java:259)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+  org.testng.TestNG.run(TestNG.java:1032)
+  org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:74)
+  org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+  org.apache.maven.surefire.Surefire.run(Surefire.java:180)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:497)
+  org.apache.maven.surefire.booter.SurefireBooter.runSuitesInProcess(SurefireBooter.java:350)
+  org.apache.maven.surefire.booter.SurefireBooter.main(SurefireBooter.java:1021)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="verifyCreateLoginDetails" time="10.987" classname="com.nk.tests.RegisterPageTest">
+                <failure type="java.lang.AssertionError"
+                  message="Email Field is not displayed expected [true] but found [false]"
+              >
+<![CDATA[java.lang.AssertionError: Email Field is not displayed expected [true] but found [false]
+  org.testng.Assert.fail(Assert.java:94)
+  org.testng.Assert.failNotEquals(Assert.java:496)
+  org.testng.Assert.assertTrue(Assert.java:42)
+  com.nk.pages.RegistrationPage.verifyEmailField(RegistrationPage.java:187)
+  com.nk.tests.RegisterPageTest.verifyCreateLoginDetails(RegisterPageTest.java:61)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:497)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+  org.testng.TestRunner.privateRun(TestRunner.java:771)
+  org.testng.TestRunner.run(TestRunner.java:621)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+  org.testng.SuiteRunner.run(SuiteRunner.java:259)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+  org.testng.TestNG.run(TestNG.java:1032)
+  org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:74)
+  org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+  org.apache.maven.surefire.Surefire.run(Surefire.java:180)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:497)
+  org.apache.maven.surefire.booter.SurefireBooter.runSuitesInProcess(SurefireBooter.java:350)
+  org.apache.maven.surefire.booter.SurefireBooter.main(SurefireBooter.java:1021)
+]]>
+      </failure>
+
+          </testcase>
+  
+  
+            <testcase name="popUpClose" time="1.883" classname="com.nk.tests.RegisterPageTest" />
+      
+</testsuite>

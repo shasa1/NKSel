@@ -1,0 +1,317 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG Report</title>
+<style type="text/css">
+table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}
+td,th {border:1px solid #009;padding:.25em .5em}
+.result th {vertical-align:bottom}
+.param th {padding-left:1em;padding-right:1em}
+.param td {padding-left:.5em;padding-right:2em}
+.stripe td,.stripe th {background-color: #E6EBF9}
+.numi,.numi_attn {text-align:right}
+.total td {font-weight:bold}
+.passedodd td {background-color: #0A0}
+.passedeven td {background-color: #3F3}
+.skippedodd td {background-color: #CCC}
+.skippedodd td {background-color: #DDD}
+.failedodd td,.numi_attn {background-color: #F33}
+.failedeven td,.stripe .numi_attn {background-color: #D00}
+.stacktrace {white-space:pre;font-family:monospace}
+.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="testOverview">
+<tr><th>Test</th><th>Methods<br/>Passed</th><th>Scenarios<br/>Passed</th><th># skipped</th><th># failed</th><th>Total<br/>Time</th><th>Included<br/>Groups</th><th>Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em"><a href="#t1">smoke test</a></td><td class="numi">16</td><td class="numi">16</td><td class="numi">0</td><td class="numi_attn">12</td><td class="numi">581.6 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="methodOverview" id="summary">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr id="t1"><th colspan="5">smoke test &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="8">com.nk.tests.RegisterPageTest</td><td><a href="#m1"><b>verifyRegistrationPage</b>  </a></td><td class="numi">1</td><td>1464600864431</td><td class="numi">10179</td></tr><tr class="failedodd"><td><a href="#m2"><b>verifyCreateLoginDetails</b>  </a></td><td class="numi">1</td><td>1464600874633</td><td class="numi">10987</td></tr><tr class="failedodd"><td><a href="#m3"><b>verifyYourContactInformation</b>  </a></td><td class="numi">1</td><td>1464600885621</td><td class="numi">10732</td></tr><tr class="failedodd"><td><a href="#m4"><b>verifyYourCurrentEmploymentDetails</b>  </a></td><td class="numi">1</td><td>1464600896354</td><td class="numi">10779</td></tr><tr class="failedodd"><td><a href="#m5"><b>verifyCompleteMyProfilePage</b>  </a></td><td class="numi">1</td><td>1464600907135</td><td class="numi">225</td></tr><tr class="failedodd"><td><a href="#m6"><b>verifyEducationDetails</b>  </a></td><td class="numi">1</td><td>1464600907362</td><td class="numi">10745</td></tr><tr class="failedodd"><td><a href="#m7"><b>verifyCompleteMyProfile</b>  </a></td><td class="numi">1</td><td>1464600918107</td><td class="numi">10737</td></tr><tr class="failedodd"><td><a href="#m8"><b>verifyCreateYourJobAlert</b>  </a></td><td class="numi">1</td><td>1464600928845</td><td class="numi">261</td></tr>
+<tr class="failedeven"><td rowspan="4">com.nk.tests.SearchPageTest</td><td><a href="#m9"><b>verifyRefineByIndustryType</b>  </a></td><td class="numi">1</td><td>1464601311179</td><td class="numi">31345</td></tr><tr class="failedeven"><td><a href="#m10"><b>verifyRefineByIndustryPopUp</b>  </a></td><td class="numi">1</td><td>1464601342540</td><td class="numi">10886</td></tr><tr class="failedeven"><td><a href="#m11"><b>verifyRefineByEducation</b>  </a></td><td class="numi">1</td><td>1464601353428</td><td class="numi">23586</td></tr><tr class="failedeven"><td><a href="#m12"><b>verifyRefineByEducationPopUp</b>  </a></td><td class="numi">1</td><td>1464601377018</td><td class="numi">24629</td></tr>
+<tr><th colspan="5">smoke test &#8212; passed</th></tr>
+<tr class="passedodd"><td>com.nk.tests.RegisterPageTest</td><td><a href="#m13"><b>popUpClose</b>  </a></td><td class="numi">1</td><td>1464600862526</td><td class="numi">1883</td></tr>
+<tr class="passedeven"><td rowspan="13">com.nk.tests.SearchPageTest</td><td><a href="#m14"><b>popUpClose</b>  </a></td><td class="numi">1</td><td>1464600949160</td><td class="numi">2325</td></tr><tr class="passedeven"><td><a href="#m15"><b>verifySearchSection</b>  </a></td><td class="numi">1</td><td>1464600951485</td><td class="numi">2093</td></tr><tr class="passedeven"><td><a href="#m16"><b>verifySearchByLocationField</b>  </a></td><td class="numi">1</td><td>1464600953578</td><td class="numi">21907</td></tr><tr class="passedeven"><td><a href="#m17"><b>verifySearchByExperienceField</b>  </a></td><td class="numi">1</td><td>1464600975485</td><td class="numi">34797</td></tr><tr class="passedeven"><td><a href="#m18"><b>verifySearchBySkill</b>  </a></td><td class="numi">1</td><td>1464601010283</td><td class="numi">7441</td></tr><tr class="passedeven"><td><a href="#m19"><b>verifySearchResultsPage</b>  </a></td><td class="numi">1</td><td>1464601017725</td><td class="numi">8295</td></tr><tr class="passedeven"><td><a href="#m20"><b>verifyRefineResultsSection</b>  </a></td><td class="numi">1</td><td>1464601026021</td><td class="numi">2798</td></tr><tr class="passedeven"><td><a href="#m21"><b>verifySearchListingViewResults</b>  </a></td><td class="numi">1</td><td>1464601028819</td><td class="numi">69025</td></tr><tr class="passedeven"><td><a href="#m22"><b>verifySearchDetailedViewResults</b>  </a></td><td class="numi">1</td><td>1464601097845</td><td class="numi">102691</td></tr><tr class="passedeven"><td><a href="#m23"><b>verifySearchResultsSection</b>  </a></td><td class="numi">1</td><td>1464601200537</td><td class="numi">3722</td></tr><tr class="passedeven"><td><a href="#m24"><b>verifyRefineByFreshness</b>  </a></td><td class="numi">1</td><td>1464601204260</td><td class="numi">26363</td></tr><tr class="passedeven"><td><a href="#m25"><b>verifySearchByLocationSection</b>  </a></td><td class="numi">1</td><td>1464601230624</td><td class="numi">22917</td></tr><tr class="passedeven"><td><a href="#m26"><b>verifyRefineByLocationPopUp</b>  </a></td><td class="numi">1</td><td>1464601253542</td><td class="numi">57637</td></tr>
+<tr class="passedodd"><td rowspan="2">com.nk.tests.HomePageTest</td><td><a href="#m27"><b>popUpClose</b>  </a></td><td class="numi">1</td><td>1464601415878</td><td class="numi">2224</td></tr><tr class="passedodd"><td><a href="#m28"><b>clickOnSiteLogoAndCheckThePageTitle</b>  </a></td><td class="numi">1</td><td>1464601418102</td><td class="numi">10106</td></tr>
+</table>
+<h1>smoke test</h1>
+<h2 id="m1">com.nk.tests.RegisterPageTest:verifyEducationDetails</h2>
+<div>
+<div class="stacktrace">java.lang.AssertionError: Specialization Error is not displayed expected [true] but found [false]
+	at com.nk.pages.SaveMyProfilePage.verifySpecializationError(SaveMyProfilePage.java:447)
+	at com.nk.pages.SaveMyProfilePage.verifySpecializationErrorDisplayed(SaveMyProfilePage.java:456)
+	at com.nk.tests.RegisterPageTest.verifyEducationDetails(RegisterPageTest.java:176)
+... Removed 33 stack frames</div>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">com.nk.tests.RegisterPageTest:verifyCreateYourJobAlert</h2>
+<div>
+<div class="stacktrace">java.lang.AssertionError: Failed to navigate to Create Your JobAlerts Page expected [Create Free Job Alert - Get Job Alerts on Email - Naukri.com] but found [Register on Naukri.com: Apply to Millions of Jobs Online]
+	at com.nk.pages.CreateYourJobAlertsPage.verifyCreateYourJobAlertsPageTitle(CreateYourJobAlertsPage.java:170)
+	at com.nk.tests.RegisterPageTest.verifyCreateYourJobAlert(RegisterPageTest.java:223)
+... Removed 34 stack frames</div>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">com.nk.tests.SearchPageTest:verifyRefineByEducationPopUp</h2>
+<div>
+<h3>Test Messages</h3>
+There was an issue in finding the webelement, class org.openqa.selenium.By$ByXPathno such element: Unable to locate element: {"method":"xpath","selector":"//h3[contains(.,'Education')]"}
+  (Session info: chrome=48.0.2564.97)
+  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.01 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.51.0', revision: '1af067d', time: '2016-02-05 19:15:17'
+System info: host: '185-129-70-157', ip: '185.129.70.157', os.name: 'windows', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Windows\proxy\scoped_dir2316_25628}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=48.0.2564.97, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 6f9788880b2540f7accbe4734b0eb095
+*** Element info: {Using=xpath, value=//h3[contains(.,'Education')]}
+Command duration or timeout: 10.78 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'salmans', ip: '172.27.139.176', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Windows\proxy\scoped_dir2316_25628}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=48.0.2564.97, platform=WINDOWS, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, webdriver.remote.sessionid=85b8e11672faa9a9941473fcde8b8a5a278ceef7, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 85b8e11672faa9a9941473fcde8b8a5a278ceef7
+*** Element info: {Using=xpath, value=//h3[contains(.,'Education')]}<br/>
+<h3>Failure</h3>
+<div class="stacktrace">java.lang.Exception: FAILED WHILE CLICKING ON EDUCATION:::
+ clickOnEducation()no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//h3[contains(.,&apos;Education&apos;)]&quot;}
+  (Session info: chrome=48.0.2564.97)
+  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.02 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.51.0&apos;, revision: &apos;1af067d&apos;, time: &apos;2016-02-05 19:15:17&apos;
+System info: host: &apos;185-129-70-157&apos;, ip: &apos;185.129.70.157&apos;, os.name: &apos;windows&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_65&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Windows\proxy\scoped_dir2316_25628}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=48.0.2564.97, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 6f9788880b2540f7accbe4734b0eb095
+*** Element info: {Using=xpath, value=//h3[contains(.,&apos;Education&apos;)]}
+Command duration or timeout: 10.84 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd10cf2c0560f637404c2d96164b67d9d67&apos;, time: &apos;2015-10-09 13:08:06&apos;
+System info: host: &apos;salmans&apos;, ip: &apos;172.27.139.176&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_65&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Windows\proxy\scoped_dir2316_25628}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=48.0.2564.97, platform=WINDOWS, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, webdriver.remote.sessionid=85b8e11672faa9a9941473fcde8b8a5a278ceef7, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 85b8e11672faa9a9941473fcde8b8a5a278ceef7
+*** Element info: {Using=xpath, value=//h3[contains(.,&apos;Education&apos;)]}
+	at com.nk.pages.SearchResultPage.clickOnEducation(SearchResultPage.java:1568)
+	at com.nk.tests.SearchPageTest.verifyRefineByEducationPopUp(SearchPageTest.java:143)
+... Removed 30 stack frames</div>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">com.nk.tests.SearchPageTest:verifyRefineByEducation</h2>
+<div>
+<h3>Test Messages</h3>
+There was an issue in finding the webelement, class org.openqa.selenium.By$ByXPathno such element: Unable to locate element: {"method":"xpath","selector":"//h3[contains(.,'Education')]"}
+  (Session info: chrome=48.0.2564.97)
+  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.01 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.51.0', revision: '1af067d', time: '2016-02-05 19:15:17'
+System info: host: '185-129-70-157', ip: '185.129.70.157', os.name: 'windows', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Windows\proxy\scoped_dir2316_25628}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=48.0.2564.97, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 6f9788880b2540f7accbe4734b0eb095
+*** Element info: {Using=xpath, value=//h3[contains(.,'Education')]}
+Command duration or timeout: 10.78 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'salmans', ip: '172.27.139.176', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Windows\proxy\scoped_dir2316_25628}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=48.0.2564.97, platform=WINDOWS, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, webdriver.remote.sessionid=85b8e11672faa9a9941473fcde8b8a5a278ceef7, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 85b8e11672faa9a9941473fcde8b8a5a278ceef7
+*** Element info: {Using=xpath, value=//h3[contains(.,'Education')]}<br/>
+<h3>Failure</h3>
+<div class="stacktrace">java.lang.Exception: FAILED WHILE CLICKING ON EDUCATION:::
+ clickOnEducation()no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//h3[contains(.,&apos;Education&apos;)]&quot;}
+  (Session info: chrome=48.0.2564.97)
+  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.01 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.51.0&apos;, revision: &apos;1af067d&apos;, time: &apos;2016-02-05 19:15:17&apos;
+System info: host: &apos;185-129-70-157&apos;, ip: &apos;185.129.70.157&apos;, os.name: &apos;windows&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_65&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Windows\proxy\scoped_dir2316_25628}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=48.0.2564.97, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 6f9788880b2540f7accbe4734b0eb095
+*** Element info: {Using=xpath, value=//h3[contains(.,&apos;Education&apos;)]}
+Command duration or timeout: 10.80 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd10cf2c0560f637404c2d96164b67d9d67&apos;, time: &apos;2015-10-09 13:08:06&apos;
+System info: host: &apos;salmans&apos;, ip: &apos;172.27.139.176&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_65&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Windows\proxy\scoped_dir2316_25628}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=48.0.2564.97, platform=WINDOWS, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, webdriver.remote.sessionid=85b8e11672faa9a9941473fcde8b8a5a278ceef7, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 85b8e11672faa9a9941473fcde8b8a5a278ceef7
+*** Element info: {Using=xpath, value=//h3[contains(.,&apos;Education&apos;)]}
+	at com.nk.pages.SearchResultPage.clickOnEducation(SearchResultPage.java:1568)
+	at com.nk.tests.SearchPageTest.verifyRefineByEducation(SearchPageTest.java:74)
+... Removed 30 stack frames</div>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">com.nk.tests.RegisterPageTest:verifyYourCurrentEmploymentDetails</h2>
+<div>
+<div class="stacktrace">java.lang.AssertionError: Experience Error is not displayed expected [true] but found [false]
+	at com.nk.pages.RegistrationPage.verifyExperienceError(RegistrationPage.java:483)
+	at com.nk.pages.RegistrationPage.verifyExperienceErrorDisplayed(RegistrationPage.java:492)
+	at com.nk.tests.RegisterPageTest.verifyYourCurrentEmploymentDetails(RegisterPageTest.java:117)
+... Removed 33 stack frames</div>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">com.nk.tests.RegisterPageTest:verifyCompleteMyProfile</h2>
+<div>
+<div class="stacktrace">java.lang.AssertionError: Basic Profile Saved Message is not displayed expected [true] but found [false]
+	at com.nk.pages.CompleteMyProfilePage.verifyBasicProfileSavedMessage(CompleteMyProfilePage.java:53)
+	at com.nk.tests.RegisterPageTest.verifyCompleteMyProfile(RegisterPageTest.java:205)
+... Removed 33 stack frames</div>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m7">com.nk.tests.SearchPageTest:verifyRefineByIndustryPopUp</h2>
+<div>
+<div class="stacktrace">java.lang.AssertionError: Industry Section is not displayed expected [true] but found [false]
+	at com.nk.pages.SearchResultPage.verifyIndustrySection(SearchResultPage.java:370)
+	at com.nk.pages.SearchResultPage.clickOnIndustry(SearchResultPage.java:1470)
+	at com.nk.tests.SearchPageTest.verifyRefineByIndustryPopUp(SearchPageTest.java:112)
+... Removed 33 stack frames</div>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m8">com.nk.tests.RegisterPageTest:verifyYourContactInformation</h2>
+<div>
+<div class="stacktrace">java.lang.AssertionError: Full Name Field is not displayed expected [true] but found [false]
+	at com.nk.pages.RegistrationPage.verifyFullNameField(RegistrationPage.java:309)
+	at com.nk.pages.RegistrationPage.enterFullName(RegistrationPage.java:957)
+	at com.nk.tests.RegisterPageTest.verifyYourContactInformation(RegisterPageTest.java:95)
+... Removed 33 stack frames</div>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m9">com.nk.tests.RegisterPageTest:verifyRegistrationPage</h2>
+<div>
+<div class="stacktrace">java.lang.AssertionError: Failed to load Registration page expected [Register on Naukri.com and Apply to Millions of Jobs Online. Free Registration. Submit Your Resume Now.] but found [Register on Naukri.com: Apply to Millions of Jobs Online]
+	at com.nk.util.BasePageObject.compareTwoStrings(BasePageObject.java:341)
+	at com.nk.pages.RegistrationPage.verifyRegistrationPageTitle(RegistrationPage.java:654)
+	at com.nk.tests.RegisterPageTest.verifyRegistrationPage(RegisterPageTest.java:43)
+... Removed 34 stack frames</div>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m10">com.nk.tests.SearchPageTest:verifyRefineByIndustryType</h2>
+<div>
+<div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;jDisc mt20&apos;]/p[2]//a[1]&quot;}
+  (Session info: chrome=48.0.2564.97)
+  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.02 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.51.0&apos;, revision: &apos;1af067d&apos;, time: &apos;2016-02-05 19:15:17&apos;
+System info: host: &apos;185-129-70-157&apos;, ip: &apos;185.129.70.157&apos;, os.name: &apos;windows&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_65&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Windows\proxy\scoped_dir2316_25628}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=48.0.2564.97, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 6f9788880b2540f7accbe4734b0eb095
+*** Element info: {Using=xpath, value=//div[@class=&apos;jDisc mt20&apos;]/p[2]//a[1]}
+Command duration or timeout: 11.44 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd10cf2c0560f637404c2d96164b67d9d67&apos;, time: &apos;2015-10-09 13:08:06&apos;
+System info: host: &apos;salmans&apos;, ip: &apos;172.27.139.176&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_65&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Windows\proxy\scoped_dir2316_25628}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=48.0.2564.97, platform=WINDOWS, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, webdriver.remote.sessionid=85b8e11672faa9a9941473fcde8b8a5a278ceef7, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 85b8e11672faa9a9941473fcde8b8a5a278ceef7
+*** Element info: {Using=xpath, value=//div[@class=&apos;jDisc mt20&apos;]/p[2]//a[1]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:490)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:345)
+	at com.nk.util.BasePageObject.getText(BasePageObject.java:78)
+	at com.nk.pages.JobListingsPage.verifyIndustryType(JobListingsPage.java:90)
+	at com.nk.tests.SearchPageTest.verifyRefineByIndustryType(SearchPageTest.java:101)
+Caused by: org.openqa.selenium.remote.ScreenshotException: Screen shot has been taken
+Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd10cf2c0560f637404c2d96164b67d9d67&apos;, time: &apos;2015-10-09 13:08:06&apos;
+System info: host: &apos;salmans&apos;, ip: &apos;172.27.139.176&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_65&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:138)
+	... 38 more
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;jDisc mt20&apos;]/p[2]//a[1]&quot;}
+  (Session info: chrome=48.0.2564.97)
+  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.02 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.51.0&apos;, revision: &apos;1af067d&apos;, time: &apos;2016-02-05 19:15:17&apos;
+System info: host: &apos;185-129-70-157&apos;, ip: &apos;185.129.70.157&apos;, os.name: &apos;windows&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_65&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Windows\proxy\scoped_dir2316_25628}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=48.0.2564.97, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 6f9788880b2540f7accbe4734b0eb095
+*** Element info: {Using=xpath, value=//div[@class=&apos;jDisc mt20&apos;]/p[2]//a[1]}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd10cf2c0560f637404c2d96164b67d9d67&apos;, time: &apos;2015-10-09 13:08:06&apos;
+System info: host: &apos;salmans&apos;, ip: &apos;172.27.139.176&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_65&apos;
+Driver info: driver.version: EventFiringWebDriver
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:103)
+	at com.sun.proxy.$Proxy1.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:188)
+	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:48)
+	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 41 stack frames</div>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m11">com.nk.tests.RegisterPageTest:verifyCompleteMyProfilePage</h2>
+<div>
+<div class="stacktrace">java.lang.AssertionError: Failed to load Complete MyProfile page expected [Resume Manager - Post Resume Online - Submit your CV - Naukri.com] but found [Register on Naukri.com: Apply to Millions of Jobs Online]
+	at com.nk.pages.SaveMyProfilePage.verifySaveMyProfilePageTitle(SaveMyProfilePage.java:71)
+	at com.nk.tests.RegisterPageTest.verifyCompleteMyProfilePage(RegisterPageTest.java:158)
+... Removed 34 stack frames</div>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m12">com.nk.tests.RegisterPageTest:verifyCreateLoginDetails</h2>
+<div>
+<div class="stacktrace">java.lang.AssertionError: Email Field is not displayed expected [true] but found [false]
+	at com.nk.pages.RegistrationPage.verifyEmailField(RegistrationPage.java:187)
+	at com.nk.tests.RegisterPageTest.verifyCreateLoginDetails(RegisterPageTest.java:61)
+... Removed 33 stack frames</div>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m13">com.nk.tests.RegisterPageTest:popUpClose</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m14">com.nk.tests.SearchPageTest:verifyRefineByFreshness</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m15">com.nk.tests.SearchPageTest:verifySearchByLocationField</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m16">com.nk.tests.SearchPageTest:verifySearchByLocationSection</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m17">com.nk.tests.SearchPageTest:verifySearchByExperienceField</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m18">com.nk.tests.SearchPageTest:verifyRefineByLocationPopUp</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m19">com.nk.tests.SearchPageTest:verifySearchSection</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m20">com.nk.tests.SearchPageTest:verifySearchDetailedViewResults</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m21">com.nk.tests.HomePageTest:clickOnSiteLogoAndCheckThePageTitle</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m22">com.nk.tests.HomePageTest:popUpClose</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m23">com.nk.tests.SearchPageTest:verifySearchBySkill</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m24">com.nk.tests.SearchPageTest:verifyRefineResultsSection</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m25">com.nk.tests.SearchPageTest:verifySearchResultsPage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m26">com.nk.tests.SearchPageTest:popUpClose</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m27">com.nk.tests.SearchPageTest:verifySearchListingViewResults</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m28">com.nk.tests.SearchPageTest:verifySearchResultsSection</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>

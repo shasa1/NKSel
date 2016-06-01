@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="smoke test"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="12.330">
+  <properties />
+  
+  
+            <testcase name="clickOnSiteLogoAndCheckThePageTitle" time="10.106" classname="com.nk.tests.HomePageTest" />
+                <testcase name="popUpClose" time="2.224" classname="com.nk.tests.HomePageTest" />
+      
+</testsuite>

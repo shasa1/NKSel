@@ -1,0 +1,54 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Page Object test example">
+	<parameter name="url" value="http://www.naukri.com/" />
+	<parameter name="browserType" value="BS" />
+	<test name="smoke test">
+
+		<classes>
+
+			<class name="com.nk.tests.RegisterPageTest">
+				<methods>
+					<include name="popUpClose"></include>
+					<include name="verifyRegistrationPage"></include>
+					<include name="verifyCreateLoginDetails"></include>
+					<include name="verifyYourContactInformation"></include>
+					<include name="verifyYourCurrentEmploymentDetails"></include>
+					<include name="verifyCompleteMyProfilePage"></include>
+					<include name="verifyEducationDetails"></include>
+					<include name="verifyCompleteMyProfile"></include>
+					<include name="verifyCreateYourJobAlert"></include>
+				</methods>
+			</class>
+
+			<class name="com.nk.tests.SearchPageTest">
+				<methods>
+					<include name="popUpClose"></include>
+					<include name="verifySearchSection"></include>
+					<include name="verifySearchByLocationField"></include>
+					<include name="verifySearchByExperienceField"></include>
+					<include name="verifySearchBySkill"></include>
+					<include name="verifySearchResultsPage"></include>
+					<include name="verifyRefineResultsSection"></include>
+					<include name="verifySearchListingViewResults"></include>
+					<include name="verifySearchDetailedViewResults"></include>
+					<include name="verifySearchResultsSection"></include>
+					<include name="verifyRefineByFreshness"></include>
+					<include name="verifySearchByLocationSection"></include>
+					<include name="verifyRefineByLocationPopUp"></include>
+					<include name="verifyRefineByIndustryType"></include>
+					<include name="verifyRefineByIndustryPopUp"></include>
+					<include name="verifyRefineByEducation"></include>
+					<include name="verifyRefineByEducationPopUp"></include>
+				</methods>
+			</class>
+
+			<class name="com.nk.tests.HomePageTest">
+				<methods>
+					<include name="popUpClose"></include>
+					<include name="clickOnSiteLogoAndCheckThePageTitle"></include>
+				</methods>
+			</class>
+
+		</classes>
+	</test>
+</suite>

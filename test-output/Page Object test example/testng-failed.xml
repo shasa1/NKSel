@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Page Object test example]">
+  <parameter name="url" value="http://www.naukri.com/"/>
+  <parameter name="browserType" value="BS"/>
+  <test name="smoke test(failed)">
+    <classes>
+      <class name="com.nk.tests.RegisterPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.nk.tests.RegisterPageTest -->
+      <class name="com.nk.tests.SearchPageTest">
+        <methods>
+          <include name="verifyRefineByEducation"/>
+          <include name="verifyRefineByIndustryPopUp"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="verifyRefineByEducationPopUp"/>
+          <include name="verifyRefineByIndustryType"/>
+        </methods>
+      </class> <!-- com.nk.tests.SearchPageTest -->
+      <class name="com.nk.tests.HomePageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.nk.tests.HomePageTest -->
+    </classes>
+  </test> <!-- smoke test(failed) -->
+</suite> <!-- Failed suite [Page Object test example] -->

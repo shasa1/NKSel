@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Naukri]">
+  <test name="NKTest(failed)">
+    <classes>
+      <class name="com.nk.tests.SearchPageTest">
+        <methods>
+          <include name="verifyRefineByFreshness"/>
+          <include name="verifySearchSection"/>
+          <include name="verifyRefineByEducation"/>
+          <include name="verifyRefineByLocationPopUp"/>
+          <include name="verifySearchBySkill"/>
+          <include name="setUp"/>
+          <include name="verifySearchByExperienceField"/>
+          <include name="verifySearchDetailedViewResults"/>
+          <include name="verifySearchListingViewResults"/>
+          <include name="verifySearchByLocationSection"/>
+          <include name="verifyRefineByEducationPopUp"/>
+          <include name="verifyRefineByJobTypeSection"/>
+          <include name="verifyRefineByIndustryPopUp"/>
+          <include name="verifyRefineResultsSection"/>
+          <include name="verifySearchResultsPage"/>
+          <include name="verifySearchResultsSection"/>
+          <include name="verifyRefineByIndustryType"/>
+          <include name="verifySearchByLocationField"/>
+        </methods>
+      </class> <!-- com.nk.tests.SearchPageTest -->
+    </classes>
+  </test> <!-- NKTest(failed) -->
+</suite> <!-- Failed suite [Naukri] -->

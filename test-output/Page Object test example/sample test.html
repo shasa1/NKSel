@@ -1,0 +1,288 @@
+<html>
+<head>
+<title>TestNG:  sample test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>sample test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>2/5/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Mar 31 11:18:40 IST 2016</td>
+</tr>
+<tr><td>Total time:</td><td>260 seconds (260696 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.nk.tests.HomePageTest.clickOnBuyonlineLinks()'><b>clickOnBuyonlineLinks</b><br>Test class: com.nk.tests.HomePageTest</td>
+<td><div><pre>java.lang.AssertionError: Buy online object is Missing expected [true] but found [false]
+	at com.nk.tests.HomePageTest.clickOnBuyonlineLinks(HomePageTest.java:119)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace930317866", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace930317866'><pre>java.lang.AssertionError: Buy online object is Missing expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.nk.tests.HomePageTest.clickOnBuyonlineLinks(HomePageTest.java:119)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>10</td>
+<td>com.nk.tests.HomePageTest@25a65b77</td></tr>
+<tr>
+<td title='com.nk.tests.HomePageTest.clickOnCreateJobAlert()'><b>clickOnCreateJobAlert</b><br>Test class: com.nk.tests.HomePageTest</td>
+<td><div><pre>java.lang.AssertionError: Get Matched Jobs Email id object is Missing expected [true] but found [false]
+	at com.nk.pages.HomePage.verifyGetMatchedJobsPara(HomePage.java:935)
+	at com.nk.tests.HomePageTest.clickOnCreateJobAlert(HomePageTest.java:191)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace586831282", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace586831282'><pre>java.lang.AssertionError: Get Matched Jobs Email id object is Missing expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.nk.pages.HomePage.verifyGetMatchedJobsPara(HomePage.java:935)
+	at com.nk.tests.HomePageTest.clickOnCreateJobAlert(HomePageTest.java:191)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>10</td>
+<td>com.nk.tests.HomePageTest@25a65b77</td></tr>
+<tr>
+<td title='com.nk.tests.HomePageTest.clickOnEmployerZone()'><b>clickOnEmployerZone</b><br>Test class: com.nk.tests.HomePageTest</td>
+<td><div><pre>java.lang.AssertionError: Home Page title is not matching or displayed as expected expected [Jobs - Recruitment - Job Search - Employment - Job Vacancies - Naukri.com] but found [Resume Writing Services - CV - Bio data - Naukri.com]
+	at com.nk.pages.HomePage.verifyHomePageTitle(HomePage.java:141)
+	at com.nk.tests.HomePageTest.clickOnEmployerZone(HomePageTest.java:92)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace512238546", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace512238546'><pre>java.lang.AssertionError: Home Page title is not matching or displayed as expected expected [Jobs - Recruitment - Job Search - Employment - Job Vacancies - Naukri.com] but found [Resume Writing Services - CV - Bio data - Naukri.com]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at com.nk.pages.HomePage.verifyHomePageTitle(HomePage.java:141)
+	at com.nk.tests.HomePageTest.clickOnEmployerZone(HomePageTest.java:92)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>0</td>
+<td>com.nk.tests.HomePageTest@25a65b77</td></tr>
+<tr>
+<td title='com.nk.tests.HomePageTest.clickOnNaukriFastForwardLink()'><b>clickOnNaukriFastForwardLink</b><br>Test class: com.nk.tests.HomePageTest</td>
+<td><div><pre>java.lang.Exception: FAILED CLICK ON FAST AND FORWARD 
+ clickOnCreateJobAlertnull
+	at com.nk.tests.HomePageTest.clickOnNaukriFastForwardLink(HomePageTest.java:227)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace670084377", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace670084377'><pre>java.lang.Exception: FAILED CLICK ON FAST AND FORWARD 
+ clickOnCreateJobAlertnull
+	at com.nk.tests.HomePageTest.clickOnNaukriFastForwardLink(HomePageTest.java:227)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>107</td>
+<td>com.nk.tests.HomePageTest@25a65b77</td></tr>
+<tr>
+<td title='com.nk.tests.HomePageTest.clickOnPostYourCV()'><b>clickOnPostYourCV</b><br>Test class: com.nk.tests.HomePageTest</td>
+<td><div><pre>java.lang.AssertionError: I agree Terms and condition Links are Missing expected [true] but found [false]
+	at com.nk.pages.HomePage.verifyIagreeTermsAndConditionsPara(HomePage.java:824)
+	at com.nk.tests.HomePageTest.clickOnPostYourCV(HomePageTest.java:155)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace708926121", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace708926121'><pre>java.lang.AssertionError: I agree Terms and condition Links are Missing expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.nk.pages.HomePage.verifyIagreeTermsAndConditionsPara(HomePage.java:824)
+	at com.nk.tests.HomePageTest.clickOnPostYourCV(HomePageTest.java:155)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>10</td>
+<td>com.nk.tests.HomePageTest@25a65b77</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.nk.tests.HomePageTest.clickOnSiteLogoAndCheckThePageTitle()'><b>clickOnSiteLogoAndCheckThePageTitle</b><br>Test class: com.nk.tests.HomePageTest</td>
+<td></td>
+<td>108</td>
+<td>com.nk.tests.HomePageTest@25a65b77</td></tr>
+<tr>
+<td title='com.nk.tests.HomePageTest.popUpClose()'><b>popUpClose</b><br>Test class: com.nk.tests.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>com.nk.tests.HomePageTest@25a65b77</td></tr>
+</table><p>
+</body>
+</html>

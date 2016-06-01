@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="4" total="28" passed="24">
+  <reporter-output>
+    <line>
+      <![CDATA[There was an issue in finding the webelement, class org.openqa.selenium.By$ByXPathUnable to locate element: {"method":"xpath","selector":"//h3[contains(.,'Education')]"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: '185-129-69-163', ip: '185.129.69.163', os.name: 'windows', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: driver.version: unknown
+Command duration or timeout: 11.25 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'salmans', ip: '172.27.139.176', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=44.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=false, webdriver.remote.sessionid=6707d73c2ade88ed14d82d09c74c9f2dd971b1b8, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 6707d73c2ade88ed14d82d09c74c9f2dd971b1b8
+*** Element info: {Using=xpath, value=//h3[contains(.,'Education')]}]]>
+    </line>
+    <line>
+      <![CDATA[There was an issue in finding the webelement, class org.openqa.selenium.By$ByXPathUnable to locate element: {"method":"xpath","selector":"//h3[contains(.,'Education')]"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: '185-129-69-163', ip: '185.129.69.163', os.name: 'windows', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: driver.version: unknown
+Command duration or timeout: 11.34 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'salmans', ip: '172.27.139.176', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=44.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=false, webdriver.remote.sessionid=6707d73c2ade88ed14d82d09c74c9f2dd971b1b8, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 6707d73c2ade88ed14d82d09c74c9f2dd971b1b8
+*** Element info: {Using=xpath, value=//h3[contains(.,'Education')]}]]>
+    </line>
+  </reporter-output>
+  <suite name="Page Object test example" duration-ms="722621" started-at="2016-05-05T07:57:07Z" finished-at="2016-05-05T08:09:10Z">
+    <groups>
+    </groups>
+    <test name="smoke test" duration-ms="722621" started-at="2016-05-05T07:57:07Z" finished-at="2016-05-05T08:09:10Z">
+      <class name="com.nk.tests.SearchPageTest">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:com.nk.tests.SearchPageTest@2ed94a8b]" name="setup" is-config="true" duration-ms="11318" started-at="2016-05-05T13:30:58Z" finished-at="2016-05-05T13:31:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[BS]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://www.naukri.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="popUpClose()[pri:0, instance:com.nk.tests.SearchPageTest@2ed94a8b]" name="popUpClose" duration-ms="1763" started-at="2016-05-05T13:31:09Z" finished-at="2016-05-05T13:31:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- popUpClose -->
+        <test-method status="PASS" signature="verifySearchSection()[pri:0, instance:com.nk.tests.SearchPageTest@2ed94a8b]" name="verifySearchSection" duration-ms="1534" started-at="2016-05-05T13:31:11Z" finished-at="2016-05-05T13:31:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchSection -->
+        <test-method status="PASS" signature="verifySearchByLocationField()[pri:0, instance:com.nk.tests.SearchPageTest@2ed94a8b]" name="verifySearchByLocationField" duration-ms="25812" started-at="2016-05-05T13:31:12Z" finished-at="2016-05-05T13:31:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchByLocationField -->
+        <test-method status="PASS" signature="verifySearchByExperienceField()[pri:0, instance:com.nk.tests.SearchPageTest@2ed94a8b]" name="verifySearchByExperienceField" duration-ms="30959" started-at="2016-05-05T13:31:38Z" finished-at="2016-05-05T13:32:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchByExperienceField -->
+        <test-method status="PASS" signature="verifySearchBySkill()[pri:0, instance:com.nk.tests.SearchPageTest@2ed94a8b]" name="verifySearchBySkill" duration-ms="8463" started-at="2016-05-05T13:32:09Z" finished-at="2016-05-05T13:32:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchBySkill -->
+        <test-method status="PASS" signature="verifySearchResultsPage()[pri:0, instance:com.nk.tests.SearchPageTest@2ed94a8b]" name="verifySearchResultsPage" duration-ms="7852" started-at="2016-05-05T13:32:17Z" finished-at="2016-05-05T13:32:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchResultsPage -->
+        <test-method status="PASS" signature="verifyRefineResultsSection()[pri:0, instance:com.nk.tests.SearchPageTest@2ed94a8b]" name="verifyRefineResultsSection" duration-ms="3234" started-at="2016-05-05T13:32:25Z" finished-at="2016-05-05T13:32:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRefineResultsSection -->
+        <test-method status="PASS" signature="verifySearchListingViewResults()[pri:0, instance:com.nk.tests.SearchPageTest@2ed94a8b]" name="verifySearchListingViewResults" duration-ms="73131" started-at="2016-05-05T13:32:29Z" finished-at="2016-05-05T13:33:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchListingViewResults -->
+        <test-method status="PASS" signature="verifySearchDetailedViewResults()[pri:0, instance:com.nk.tests.SearchPageTest@2ed94a8b]" name="verifySearchDetailedViewResults" duration-ms="97421" started-at="2016-05-05T13:33:42Z" finished-at="2016-05-05T13:35:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchDetailedViewResults -->
+        <test-method status="PASS" signature="verifySearchResultsSection()[pri:0, instance:com.nk.tests.SearchPageTest@2ed94a8b]" name="verifySearchResultsSection" duration-ms="3287" started-at="2016-05-05T13:35:19Z" finished-at="2016-05-05T13:35:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchResultsSection -->
+        <test-method status="PASS" signature="verifyRefineByFreshness()[pri:0, instance:com.nk.tests.SearchPageTest@2ed94a8b]" name="verifyRefineByFreshness" duration-ms="23811" started-at="2016-05-05T13:35:22Z" finished-at="2016-05-05T13:35:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRefineByFreshness -->
+        <test-method status="PASS" signature="verifySearchByLocationSection()[pri:0, instance:com.nk.tests.SearchPageTest@2ed94a8b]" name="verifySearchByLocationSection" duration-ms="22867" started-at="2016-05-05T13:35:46Z" finished-at="2016-05-05T13:36:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchByLocationSection -->
+        <test-method status="PASS" signature="verifyRefineByLocationPopUp()[pri:0, instance:com.nk.tests.SearchPageTest@2ed94a8b]" name="verifyRefineByLocationPopUp" duration-ms="51848" started-at="2016-05-05T13:36:09Z" finished-at="2016-05-05T13:37:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRefineByLocationPopUp -->
+        <test-method status="FAIL" signature="verifyRefineByIndustryType()[pri:0, instance:com.nk.tests.SearchPageTest@2ed94a8b]" name="verifyRefineByIndustryType" duration-ms="34300" started-at="2016-05-05T13:37:01Z" finished-at="2016-05-05T13:37:35Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: {"method":"xpath","selector":"//div[@class='jDisc mt20']/p[2]//a[1]"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: '185-129-69-163', ip: '185.129.69.163', os.name: 'windows', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: driver.version: unknown
+Command duration or timeout: 11.35 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'salmans', ip: '172.27.139.176', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=44.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=false, webdriver.remote.sessionid=6707d73c2ade88ed14d82d09c74c9f2dd971b1b8, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 6707d73c2ade88ed14d82d09c74c9f2dd971b1b8
+*** Element info: {Using=xpath, value=//div[@class='jDisc mt20']/p[2]//a[1]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//div[@class='jDisc mt20']/p[2]//a[1]"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: '185-129-69-163', ip: '185.129.69.163', os.name: 'windows', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: driver.version: unknown
+Command duration or timeout: 11.35 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'salmans', ip: '172.27.139.176', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=44.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=false, webdriver.remote.sessionid=6707d73c2ade88ed14d82d09c74c9f2dd971b1b8, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 6707d73c2ade88ed14d82d09c74c9f2dd971b1b8
+*** Element info: {Using=xpath, value=//div[@class='jDisc mt20']/p[2]//a[1]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:490)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:345)
+	at com.nk.util.BasePageObject.getText(BasePageObject.java:78)
+	at com.nk.pages.JobListingsPage.verifyIndustryType(JobListingsPage.java:90)
+	at com.nk.tests.SearchPageTest.verifyRefineByIndustryType(SearchPageTest.java:101)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Caused by: org.openqa.selenium.remote.ScreenshotException: Screen shot has been taken
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'salmans', ip: '172.27.139.176', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_65'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:138)
+	... 32 more
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//div[@class='jDisc mt20']/p[2]//a[1]"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: '185-129-69-163', ip: '185.129.69.163', os.name: 'windows', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: driver.version: unknown
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'salmans', ip: '172.27.139.176', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_65'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Windows/proxy/anonymous4723888856888030983webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10659)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Windows/proxy/anonymous4723888856888030983webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:621)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRefineByIndustryType -->
+        <test-method status="FAIL" signature="verifyRefineByIndustryPopUp()[pri:0, instance:com.nk.tests.SearchPageTest@2ed94a8b]" name="verifyRefineByIndustryPopUp" duration-ms="11337" started-at="2016-05-05T13:37:35Z" finished-at="2016-05-05T13:37:47Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Industry Section is not displayed expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Industry Section is not displayed expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.nk.pages.SearchResultPage.verifyIndustrySection(SearchResultPage.java:370)
+	at com.nk.pages.SearchResultPage.clickOnIndustry(SearchResultPage.java:1470)
+	at com.nk.tests.SearchPageTest.verifyRefineByIndustryPopUp(SearchPageTest.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRefineByIndustryPopUp -->
+        <test-method status="FAIL" signature="verifyRefineByEducation()[pri:0, instance:com.nk.tests.SearchPageTest@2ed94a8b]" name="verifyRefineByEducation" duration-ms="24555" started-at="2016-05-05T13:37:47Z" finished-at="2016-05-05T13:38:11Z">
+          <exception class="java.lang.Exception">
+            <message>
+              <![CDATA[FAILED WHILE CLICKING ON EDUCATION:::
+ clickOnEducation()Unable to locate element: {"method":"xpath","selector":"//h3[contains(.,'Education')]"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: '185-129-69-163', ip: '185.129.69.163', os.name: 'windows', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: driver.version: unknown
+Command duration or timeout: 11.29 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'salmans', ip: '172.27.139.176', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=44.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=false, webdriver.remote.sessionid=6707d73c2ade88ed14d82d09c74c9f2dd971b1b8, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 6707d73c2ade88ed14d82d09c74c9f2dd971b1b8
+*** Element info: {Using=xpath, value=//h3[contains(.,'Education')]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Exception: FAILED WHILE CLICKING ON EDUCATION:::
+ clickOnEducation()Unable to locate element: {"method":"xpath","selector":"//h3[contains(.,'Education')]"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: '185-129-69-163', ip: '185.129.69.163', os.name: 'windows', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: driver.version: unknown
+Command duration or timeout: 11.29 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'salmans', ip: '172.27.139.176', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=44.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=false, webdriver.remote.sessionid=6707d73c2ade88ed14d82d09c74c9f2dd971b1b8, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 6707d73c2ade88ed14d82d09c74c9f2dd971b1b8
+*** Element info: {Using=xpath, value=//h3[contains(.,'Education')]}
+	at com.nk.pages.SearchResultPage.clickOnEducation(SearchResultPage.java:1568)
+	at com.nk.tests.SearchPageTest.verifyRefineByEducation(SearchPageTest.java:74)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Exception -->
+          <reporter-output>
+            <line>
+              <![CDATA[There was an issue in finding the webelement, class org.openqa.selenium.By$ByXPathUnable to locate element: {"method":"xpath","selector":"//h3[contains(.,'Education')]"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: '185-129-69-163', ip: '185.129.69.163', os.name: 'windows', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: driver.version: unknown
+Command duration or timeout: 11.25 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'salmans', ip: '172.27.139.176', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=44.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=false, webdriver.remote.sessionid=6707d73c2ade88ed14d82d09c74c9f2dd971b1b8, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 6707d73c2ade88ed14d82d09c74c9f2dd971b1b8
+*** Element info: {Using=xpath, value=//h3[contains(.,'Education')]}]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyRefineByEducation -->
+        <test-method status="FAIL" signature="verifyRefineByEducationPopUp()[pri:0, instance:com.nk.tests.SearchPageTest@2ed94a8b]" name="verifyRefineByEducationPopUp" duration-ms="25627" started-at="2016-05-05T13:38:11Z" finished-at="2016-05-05T13:38:37Z">
+          <exception class="java.lang.Exception">
+            <message>
+              <![CDATA[FAILED WHILE CLICKING ON EDUCATION:::
+ clickOnEducation()Unable to locate element: {"method":"xpath","selector":"//h3[contains(.,'Education')]"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: '185-129-69-163', ip: '185.129.69.163', os.name: 'windows', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: driver.version: unknown
+Command duration or timeout: 11.28 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'salmans', ip: '172.27.139.176', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=44.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=false, webdriver.remote.sessionid=6707d73c2ade88ed14d82d09c74c9f2dd971b1b8, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 6707d73c2ade88ed14d82d09c74c9f2dd971b1b8
+*** Element info: {Using=xpath, value=//h3[contains(.,'Education')]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Exception: FAILED WHILE CLICKING ON EDUCATION:::
+ clickOnEducation()Unable to locate element: {"method":"xpath","selector":"//h3[contains(.,'Education')]"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: '185-129-69-163', ip: '185.129.69.163', os.name: 'windows', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: driver.version: unknown
+Command duration or timeout: 11.28 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'salmans', ip: '172.27.139.176', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=44.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=false, webdriver.remote.sessionid=6707d73c2ade88ed14d82d09c74c9f2dd971b1b8, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 6707d73c2ade88ed14d82d09c74c9f2dd971b1b8
+*** Element info: {Using=xpath, value=//h3[contains(.,'Education')]}
+	at com.nk.pages.SearchResultPage.clickOnEducation(SearchResultPage.java:1568)
+	at com.nk.tests.SearchPageTest.verifyRefineByEducationPopUp(SearchPageTest.java:143)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Exception -->
+          <reporter-output>
+            <line>
+              <![CDATA[There was an issue in finding the webelement, class org.openqa.selenium.By$ByXPathUnable to locate element: {"method":"xpath","selector":"//h3[contains(.,'Education')]"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: '185-129-69-163', ip: '185.129.69.163', os.name: 'windows', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: driver.version: unknown
+Command duration or timeout: 11.34 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'salmans', ip: '172.27.139.176', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=44.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=false, webdriver.remote.sessionid=6707d73c2ade88ed14d82d09c74c9f2dd971b1b8, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 6707d73c2ade88ed14d82d09c74c9f2dd971b1b8
+*** Element info: {Using=xpath, value=//h3[contains(.,'Education')]}]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyRefineByEducationPopUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.nk.tests.SearchPageTest@2ed94a8b]" name="tearDown" is-config="true" duration-ms="5360" started-at="2016-05-05T13:38:37Z" finished-at="2016-05-05T13:38:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nk.tests.SearchPageTest -->
+      <class name="com.nk.tests.HomePageTest">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:com.nk.tests.HomePageTest@38082d64]" name="setup" is-config="true" duration-ms="11444" started-at="2016-05-05T13:38:42Z" finished-at="2016-05-05T13:38:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[BS]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://www.naukri.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="popUpClose()[pri:0, instance:com.nk.tests.HomePageTest@38082d64]" name="popUpClose" duration-ms="2223" started-at="2016-05-05T13:38:54Z" finished-at="2016-05-05T13:38:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- popUpClose -->
+        <test-method status="PASS" signature="clickOnSiteLogoAndCheckThePageTitle()[pri:0, instance:com.nk.tests.HomePageTest@38082d64]" name="clickOnSiteLogoAndCheckThePageTitle" duration-ms="10106" started-at="2016-05-05T13:38:56Z" finished-at="2016-05-05T13:39:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnSiteLogoAndCheckThePageTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.nk.tests.HomePageTest@38082d64]" name="tearDown" is-config="true" duration-ms="4095" started-at="2016-05-05T13:39:06Z" finished-at="2016-05-05T13:39:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nk.tests.HomePageTest -->
+      <class name="com.nk.tests.RegisterPageTest">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:com.nk.tests.RegisterPageTest@22f71333]" name="setup" is-config="true" duration-ms="14304" started-at="2016-05-05T13:27:07Z" finished-at="2016-05-05T13:27:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[BS]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://www.naukri.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="popUpClose()[pri:0, instance:com.nk.tests.RegisterPageTest@22f71333]" name="popUpClose" duration-ms="2212" started-at="2016-05-05T13:27:22Z" finished-at="2016-05-05T13:27:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- popUpClose -->
+        <test-method status="PASS" signature="verifyRegistrationPage()[pri:0, instance:com.nk.tests.RegisterPageTest@22f71333]" name="verifyRegistrationPage" duration-ms="15375" started-at="2016-05-05T13:27:24Z" finished-at="2016-05-05T13:27:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegistrationPage -->
+        <test-method status="PASS" signature="verifyCreateLoginDetails()[pri:0, instance:com.nk.tests.RegisterPageTest@22f71333]" name="verifyCreateLoginDetails" duration-ms="47900" started-at="2016-05-05T13:27:39Z" finished-at="2016-05-05T13:28:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateLoginDetails -->
+        <test-method status="PASS" signature="verifyYourContactInformation()[pri:0, instance:com.nk.tests.RegisterPageTest@22f71333]" name="verifyYourContactInformation" duration-ms="19574" started-at="2016-05-05T13:28:27Z" finished-at="2016-05-05T13:28:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyYourContactInformation -->
+        <test-method status="PASS" signature="verifyYourCurrentEmploymentDetails()[pri:0, instance:com.nk.tests.RegisterPageTest@22f71333]" name="verifyYourCurrentEmploymentDetails" duration-ms="47000" started-at="2016-05-05T13:28:47Z" finished-at="2016-05-05T13:29:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyYourCurrentEmploymentDetails -->
+        <test-method status="PASS" signature="verifyCompleteMyProfilePage()[pri:0, instance:com.nk.tests.RegisterPageTest@22f71333]" name="verifyCompleteMyProfilePage" duration-ms="6845" started-at="2016-05-05T13:29:34Z" finished-at="2016-05-05T13:29:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCompleteMyProfilePage -->
+        <test-method status="PASS" signature="verifyEducationDetails()[pri:0, instance:com.nk.tests.RegisterPageTest@22f71333]" name="verifyEducationDetails" duration-ms="35241" started-at="2016-05-05T13:29:41Z" finished-at="2016-05-05T13:30:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEducationDetails -->
+        <test-method status="PASS" signature="verifyCompleteMyProfile()[pri:0, instance:com.nk.tests.RegisterPageTest@22f71333]" name="verifyCompleteMyProfile" duration-ms="9049" started-at="2016-05-05T13:30:16Z" finished-at="2016-05-05T13:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCompleteMyProfile -->
+        <test-method status="PASS" signature="verifyCreateYourJobAlert()[pri:0, instance:com.nk.tests.RegisterPageTest@22f71333]" name="verifyCreateYourJobAlert" duration-ms="27052" started-at="2016-05-05T13:30:25Z" finished-at="2016-05-05T13:30:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateYourJobAlert -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.nk.tests.RegisterPageTest@22f71333]" name="tearDown" is-config="true" duration-ms="5652" started-at="2016-05-05T13:30:52Z" finished-at="2016-05-05T13:30:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nk.tests.RegisterPageTest -->
+    </test> <!-- smoke test -->
+  </suite> <!-- Page Object test example -->
+</testng-results>
