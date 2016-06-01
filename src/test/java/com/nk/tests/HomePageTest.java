@@ -6,7 +6,6 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import com.nk.common.NKCommon;
-import com.nk.common.NKConstants;
 import com.nk.pages.CreateJobAlert;
 import com.nk.pages.CustomerSupportPage;
 import com.nk.pages.HomePage;
@@ -18,8 +17,6 @@ import com.nk.pages.RecruitNaukriPage;
 import com.nk.pages.ResumeNaukriPage;
 import com.nk.pages.TermsAndConditions;
 import com.nk.util.BaseTestObject;
-
-import net.sourceforge.htmlunit.corejs.javascript.ObjToIntMap;
 
 public class HomePageTest extends BaseTestObject
 
@@ -181,6 +178,7 @@ public void clickOnPostYourCV() throws Exception
 	
 }
 
+@SuppressWarnings("unused")
 @Test (priority=6, enabled=true)
 public void clickOnCreateJobAlert() throws Exception
 {

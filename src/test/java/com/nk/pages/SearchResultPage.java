@@ -1219,6 +1219,7 @@ public class SearchResultPage extends BasePageObject{
 			String expText = exp.getText().trim();
 			String split[] = expText.split("yrs");
 			String split1[] = split[0].split("-");
+			@SuppressWarnings("unused")
 			int value = Integer.parseInt(split1[0].trim());
 			int value1 = Integer.parseInt(split1[1].trim());
 			if (value1>=experience) {
