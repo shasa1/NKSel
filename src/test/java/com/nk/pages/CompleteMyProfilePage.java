@@ -39,6 +39,8 @@ public class CompleteMyProfilePage extends BasePageObject {
 	}
 	
 	
+	
+	
 	/*Variable Initialization*/
 	boolean flag = false;
 	
@@ -51,6 +53,7 @@ public class CompleteMyProfilePage extends BasePageObject {
 	public boolean verifyBasicProfileSavedMessage(){
 		flag = isElementPresent(basicProfileSavedMessage);
 		Assert.assertTrue(flag, "Basic Profile Saved Message is not displayed");
+		System.out.println("Hello");
 		return flag;
 	}
 	
