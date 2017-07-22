@@ -10,7 +10,7 @@ public class App
     {
         System.out.println( "Hello samwise!" );
         System.out.println("Checking the CI functionality");
-        System.out.println( "Checking the email functionality" );
+        System.out.println( "Checking the Email functionality" );
         
     }
 }
